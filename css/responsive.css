@@ -1,0 +1,116 @@
+/* for mobile */
+@media only screen and (max-width: 767px) {
+    .request-proposal {
+        padding: 6px;
+        font-size: 10px;
+    }
+
+    .about h3 {
+        font-size: 24px;
+    }
+    h1, h2, h3 {
+        font-size: 24px;
+    }
+    .sidebar{
+        margin-top: 0px;
+    }
+    #mobile{
+        display: none;
+    }
+    .about {
+        margin-top: 30px;
+    }
+    .sss-calender {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .magazine {
+        max-width: 100%;
+    }
+    .small-image-one {
+        text-align: center;
+    }
+    .logo {
+        text-align: center;
+    }
+    .top-banner {
+        height: 125px !important;
+    }
+    a.nav-link:hover {
+        border-top: none;
+        transition-duration: 0s;
+        color: #F2C42B !important;
+    }
+    .alignment {
+        text-align: center;
+    }
+    ul.navbar-nav {
+        text-align: center;
+    }
+    #main_nav {
+          position: fixed;
+          top: 0;
+          left: 0px;
+          z-index: 99;
+          width: 100%;
+          height: 100%;
+          background-color: #993334;
+          overflow: auto;
+    }
+    /*********close-button*********/
+    #colsenav {
+        float: right;
+        font-size: 30px;
+        width: 35px;
+        color: #fff;
+    }
+    .wrap {
+        width: 100%;
+        padding: 25px;
+        margin-top: 35px;
+    }
+}
+
+
+/* for desktop */
+@media only screen and (min-width: 768px) {
+    #desktop{
+        display: none;
+    }
+    #colsenav {
+        display: none;
+    }
+}
+
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+	.dropdown-menu li{
+		position: relative;
+	}
+	.dropdown-menu .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.dropdown-menu .submenu-left{ 
+		right:100%; left:auto;
+	}
+
+	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+	.dropdown-menu > li:hover > .submenu{
+		display: block;
+	}
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+
+.dropdown-menu .dropdown-menu{
+		margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+}
+
+}	
+/* ============ small devices .end// ============ */
